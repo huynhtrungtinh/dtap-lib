@@ -1,0 +1,51 @@
+{
+  "name": "@dtap/ui-core",
+  "version": "0.0.1",
+  "files": [
+    "*.md",
+    "lib",
+    "esm",
+    "types"
+  ],
+  "main": "lib/index",
+  "module": "esm/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./lib && tsc",
+    "build-esm": "rimraf ./esm ./types && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch",
+    "watch:lib": "yarn -s watch",
+    "clear": "rimraf lib types esm",
+    "release": "npm publish --tag latest"
+  },
+  "peerDependencies": {
+    "connected-react-router": "^6",
+    "@types/jws": "^3",
+    "@types/lodash": "^4",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "dexie": "^3",
+    "jws": "^4",
+    "lodash": "^4",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-redux": "^7",
+    "react-redux-i18n": "^1",
+    "react-redux-loading-bar": "^5",
+    "react-router": "^5",
+    "react-router-dom": "^5",
+    "redux": "^4",
+    "redux-thunk": "^2"
+  },
+  "devDependencies": {
+    "rimraf": "^3"
+  },
+  "authors": [
+    {
+      "name": "Huynh Trung Tinh",
+      "email": "huynhtrungtinh1996@gmail.com"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": "config",
+    "path_prefix": "training",
+    "name": "",
+    "display_name": "",
+    "path": ""
+  },
+  {
+    "root_app": "operation",
+    "display_root_app": "Operation",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "",
+    "display_name": "",
+    "path": ""
+  },
+  {
+    "root_app": "operation",
+    "display_root_app": "Operation",
+    "sub_app": "quality-control",
+    "display_sub_app": "QC Execution",
+    "type": "workflow",
+    "path_prefix": "quality-control",
+    "name": "",
+    "display_name": "",
+    "path": ""
+  },
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": null,
+    "path_prefix": "training",
+    "name": "user-guide",
+    "display_name": "User Guide",
+    "path": "projects/:projectId/user-guide"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "acquisitions",
+    "display_name": "Acquisitions",
+    "path": "projects/:projectId/acquisitions"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "tasks-assignment",
+    "display_name": "Tasks assignment",
+    "path": "projects/:projectId/tasks-assignment"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "functions-assignment",
+    "display_name": "Functions assignment",
+    "path": "projects/:projectId/functions-assignment"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "approve-qc",
+    "display_name": "Approve QC",
+    "path": "projects/:projectId/approve-qc"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "batch-information",
+    "display_name": "Batch information",
+    "path": "projects/:projectId/batch-information"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "batch-priority",
+    "display_name": "Batch Priority",
+    "path": "projects/:projectId/batch-priority"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "document-information",
+    "display_name": "Document information",
+    "path": "projects/:projectId/document-information"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "export-data",
+    "display_name": "Export data",
+    "path": "projects/:projectId/export-data"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "manual-upload",
+    "display_name": "Manual Upload",
+    "path": "projects/:projectId/manual-upload"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "project-announcement",
+    "display_name": "Project Announcement",
+    "path": "projects/:projectId/project-announcement"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "project-guide",
+    "display_name": "Project Guide",
+    "path": "projects/:projectId/project-guide"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "rework-details",
+    "display_name": "Rework Details",
+    "path": "projects/:projectId/rework-details"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "training-configs",
+    "display_name": "Training configs",
+    "path": "projects/:projectId/training-configs"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "training-report",
+    "display_name": "Training Report",
+    "path": "projects/:projectId/training-report"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "verifying-configuration",
+    "display_name": "Verifying Configuration",
+    "path": "projects/:projectId/verifying-configuration"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "monitor-citi",
+    "display_name": "Monitor Citi",
+    "path": "projects/:projectId/monitor-citi"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "production-admin",
+    "display_sub_app": "Prd Management",
+    "type": null,
+    "path_prefix": "production-admin",
+    "name": "view-data-entry",
+    "display_name": "View Data Entry",
+    "path": "projects/:projectId/view-data-entry"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "qc-admin",
+    "display_sub_app": "QC Management",
+    "type": null,
+    "path_prefix": "qc-admin",
+    "name": "tasks-assignment-qc",
+    "display_name": "Tasks assignment",
+    "path": "projects/:projectId/tasks-assignment-qc"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "qc-admin",
+    "display_sub_app": "QC Management",
+    "type": null,
+    "path_prefix": "qc-admin",
+    "name": "functions-assignment-qc",
+    "display_name": "Functions assignment",
+    "path": "projects/:projectId/functions-assignment-qc"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "qc-admin",
+    "display_sub_app": "QC Management",
+    "type": null,
+    "path_prefix": "qc-admin",
+    "name": "qc-setting",
+    "display_name": "QC Setting",
+    "path": "projects/:projectId/qc-setting"
+  },
+  {
+    "root_app": "manager",
+    "display_root_app": "Manager",
+    "sub_app": "qc-admin",
+    "display_sub_app": "QC Management",
+    "type": null,
+    "path_prefix": "qc-admin",
+    "name": "qc-sampling",
+    "display_name": "QC Sampling",
+    "path": "projects/:projectId/qc-sampling"
+  },
+  {
+    "root_app": "monitoring",
+    "display_root_app": "Monitoring",
+    "type": null,
+    "path_prefix": "reports",
+    "name": "monitor-operator",
+    "display_name": "Monitor Operator",
+    "path": "projects/:projectId/monitor-operator"
+  },
+  {
+    "root_app": "reporting",
+    "display_root_app": "Reporting",
+    "type": null,
+    "path_prefix": "reports",
+    "name": "details-mistake-report",
+    "display_name": "Details Mistake Report",
+    "path": "projects/:projectId/details-mistake-report"
+  },
+  {
+    "root_app": "reporting",
+    "display_root_app": "Reporting",
+    "type": null,
+    "path_prefix": "reports",
+    "name": "performance-report",
+    "display_name": "Performance Report",
+    "path": "projects/:projectId/performance-report"
+  },
+  {
+    "root_app": "system",
+    "display_root_app": "System",
+    "type": null,
+    "path_prefix": "/system",
+    "name": "system-configuration",
+    "display_name": "System Configuration",
+    "path": "system-configuration"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "account-management",
+    "display_name": "Account Management",
+    "path": "/account-management"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "customers-information",
+    "display_name": "Customers Information",
+    "path": "/customers-information"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "projects-information",
+    "display_name": "Projects Information",
+    "path": "/projects-information"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "user-assignment",
+    "display_name": "User Assignment",
+    "path": "/user-assignment"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "project-setting",
+    "display_name": "Project Setting",
+    "path": "/project-setting"
+  },
+  {
+    "root_app": "functional",
+    "display_root_app": "Functional",
+    "type": null,
+    "path_prefix": "/functional",
+    "name": "basic-training",
+    "display_name": "Basic Training",
+    "path": "/basic-training"
+  }
+]

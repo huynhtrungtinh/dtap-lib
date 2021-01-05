@@ -1,0 +1,14 @@
+[
+  {
+    "username": "tretv",
+    "project_id": "NONE",
+    "app_name": "operation",
+    "role": "pm",
+    "functions": [
+      {
+        "name": "acquisitions",
+        "perm": "CRUD"
+      }
+    ]
+  }
+]

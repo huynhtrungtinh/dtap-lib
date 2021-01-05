@@ -1,0 +1,18 @@
+{
+  "extends": "../../tools/tsconfig.base",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "allowJs": false,
+    "declaration": true,
+    "declarationDir": "types"
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.js"
+  ],
+  "include": [
+    "src"
+  ]
+}

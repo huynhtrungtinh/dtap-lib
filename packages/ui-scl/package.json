@@ -1,0 +1,30 @@
+{
+  "name": "@dtap/ui-scl",
+  "version": "0.0.1",
+  "files": [
+    "*.md",
+    "lib",
+    "css",
+    "esm",
+    "types"
+  ],
+  "main": "lib/index",
+  "module": "esm/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./lib ./types && tsc",
+    "build-esm": "rimraf ./esm ./types && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch",
+    "watch:lib": "yarn -s watch",
+    "clear": "rimraf lib types esm",
+    "release": "npm publish --tag latest"
+  },
+  "authors": [
+    {
+      "name": "Huynh Trung Tinh",
+      "email": "huynhtrungtinh1996@gmail.com"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}

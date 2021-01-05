@@ -1,0 +1,38 @@
+{
+  "name": "@dtap/ui-utils",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Huynh Trung Tinh",
+      "email": "huynhtrungtinh1996@gmail.com"
+    }
+  ],
+  "main": "lib/index",
+  "module": "esm/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "*.md",
+    "lib",
+    "css",
+    "esm",
+    "types"
+  ],
+  "scripts": {
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./lib && tsc",
+    "build-esm": "rimraf ./esm ./types && tsc --outDir esm --module es2015",
+    "watch": "tsc --outDir esm --module es2015 --watch",
+    "clear": "rimraf lib types esm",
+    "release": "npm publish --tag latest"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "@types/react": "^16",
+    "lodash": "^4",
+    "@types/lodash": "^4"
+  },
+  "devDependencies": {
+    "rimraf": "^3"
+  },
+  "license": "DTAP"
+}

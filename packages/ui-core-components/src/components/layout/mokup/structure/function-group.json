@@ -1,0 +1,20 @@
+[
+  {
+    "name": "PM",
+    "display_name": "Project Management",
+    "functions": [
+      {
+        "name": "acquisitions"
+      }
+    ]
+  },
+  {
+    "name": "QC",
+    "display_name": "QC Management",
+    "functions": [
+      {
+        "name": "qc-setting"
+      }
+    ]
+  }
+]

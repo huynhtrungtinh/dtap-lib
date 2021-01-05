@@ -1,0 +1,139 @@
+[
+  {
+    "name": "pm",
+    "display_name": "Project Manager",
+    "app_name": "functional",
+    "functions": [
+      {
+        "name": "acquisitions",
+        "perm": "read"
+      }
+    ],
+    "actions": {
+      "pim": [
+        "PROJECT_VIEW",
+        "PROJECT_SEARCH",
+        "PROJECT_EDIT",
+        "PROJECT_ACTIVE",
+        "PROJECT_EXPORT",
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH"
+      ]
+    }
+  },
+  {
+    "name": "qcm",
+    "display_name": "QC Manager",
+    "app_name": "functional",
+    "functions": []
+  },
+  {
+    "name": "des",
+    "display_name": "Designer",
+    "app_name": "functional",
+    "functions": []
+  },
+  {
+    "name": "pim_customer_admin",
+    "display_name": "Customer Admin",
+    "app_name": "functional",
+    "functions": [
+      "projects-information",
+      "customers-information"
+    ],
+    "actions": {
+      "pim": [
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH",
+        "CUSTOMER_SEARCH_ALL",
+        "CUSTOMER_ACTIVE",
+        "CUSTOMER_CREATE",
+        "CUSTOMER_EDIT",
+        "CUSTOMER_EXPORT"
+      ]
+    }
+  },
+  {
+    "name": "pim_project_admin",
+    "display_name": "Project Admin",
+    "app_name": "functional",
+    "functions": [],
+    "actions": {
+      "pim": [
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH",
+        "CUSTOMER_SEARCH_ALL",
+        "PROJECT_CREATE",
+        "PROJECT_VIEW",
+        "PROJECT_SEARCH",
+        "PROJECT_SEARCH_ALL",
+        "PROJECT_EDIT",
+        "PROJECT_EDIT_ALL",
+        "PROJECT_ACTIVE",
+        "PROJECT_EXPORT"
+      ]
+    }
+  },
+  {
+    "name": "pim_coo",
+    "display_name": "COO",
+    "app_name": "functional",
+    "functions": [],
+    "actions": {
+      "pim": [
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH",
+        "PROJECT_VIEW",
+        "PROJECT_SEARCH",
+        "PROJECT_SEARCH_ALL",
+        "PROJECT_EXPORT",
+        "PROJECT_APPROVE"
+      ]
+    }
+  },
+  {
+    "name": "pim_cfo",
+    "display_name": "CFO",
+    "app_name": "functional",
+    "functions": [],
+    "actions": {
+      "pim": [
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH",
+        "CUSTOMER_SEARCH_ALL",
+        "CUSTOMER_APPROVE",
+        "CUSTOMER_EXPORT",
+        "PROJECT_VIEW",
+        "PROJECT_SEARCH",
+        "PROJECT_SEARCH_APPROVED"
+      ]
+    }
+  },
+  {
+    "name": "pim_admin",
+    "display_name": "PIM Admin",
+    "app_name": "functional",
+    "functions": [],
+    "actions": {
+      "pim": [
+        "CUSTOMER_VIEW",
+        "CUSTOMER_SEARCH",
+        "CUSTOMER_SEARCH_ALL",
+        "CUSTOMER_ACTIVE",
+        "CUSTOMER_CREATE",
+        "CUSTOMER_EDIT",
+        "CUSTOMER_EXPORT",
+        "CUSTOMER_APPROVE",
+        "PROJECT_VIEW",
+        "PROJECT_SEARCH",
+        "PROJECT_SEARCH_ALL",
+        "PROJECT_CREATE",
+        "PROJECT_EDIT",
+        "PROJECT_EDIT_ALL",
+        "PROJECT_ACTIVE",
+        "PROJECT_EXPORT",
+        "PROJECT_APPROVE"
+      ]
+    }
+  }
+]

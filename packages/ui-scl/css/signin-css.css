@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+[class^=l-sg] {
+  display: inline-block;
+  /* color: #5FD3D3; */
+  color: #FFF;
+  font-size: 10em;
+  font-family: "Erica One", cursive, sans-serif;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+
+span[class$=l-sg] {
+  z-index: 114;
+  font-size: 15em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0c565a, 2px 2px #11797e, 3px 3px #107075, 4px 4px #0c565a, 5px 5px #0c5255, 6px 6px #0e5f63, 7px 7px #0e6367, 8px 8px #117479, 9px 9px #0e5f63, 10px 10px #0e6367, 11px 11px #106c70, 12px 12px #0e6367, 13px 13px #0c5255, 14px 14px #0e5f63, 15px 15px #11797e, 16px 16px #0c565a, 17px 17px #0c5255, 18px 18px #0c5255, 19px 19px #0e5f63, 20px 20px #0c5255, 21px 21px #0f676c, 22px 22px #0e5f63, 23px 23px #0c565a, 24px 24px #0c565a;
+  transform: perspective(120px) rotateX(14deg) rotateY(19deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=d-sg] {
+  font-size: 14em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0e5f63, 2px 2px #0f676c, 3px 3px #0d5b5e, 4px 4px #0c5255, 5px 5px #0c5255, 6px 6px #106c70, 7px 7px #0e6367, 8px 8px #107075, 9px 9px #107075, 10px 10px #117479, 11px 11px #0c565a, 12px 12px #107075, 13px 13px #0c565a, 14px 14px #11797e, 15px 15px #0c5255, 16px 16px #0c5255, 17px 17px #106c70, 18px 18px #117479, 19px 19px #106c70, 20px 20px #0c5255, 21px 21px #107075, 22px 22px #107075, 23px 23px #11797e;
+  transform: perspective(120px) rotateX(23deg) rotateY(-18deg) translateY(0);
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+span[class$=t-sg] {
+  z-index: 22;
+  font-size: 11em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0d5b5e, 2px 2px #0e6367, 3px 3px #0c565a, 4px 4px #0c565a, 5px 5px #0d5b5e, 6px 6px #0d5b5e, 7px 7px #0e5f63, 8px 8px #0e6367, 9px 9px #0f676c, 10px 10px #107075, 11px 11px #0d5b5e, 12px 12px #107075, 13px 13px #0d5b5e, 14px 14px #0e5f63, 15px 15px #0e6367, 16px 16px #106c70, 17px 17px #11797e, 18px 18px #117479, 19px 19px #0c565a, 20px 20px #0c5255, 21px 21px #0e5f63, 22px 22px #0e6367, 23px 23px #106c70, 24px 24px #0f676c, 25px 25px #117479, 26px 26px #0e5f63, 27px 27px #0c5255, 28px 28px #0d5b5e, 29px 29px #0c565a;
+  transform: perspective(120px) rotateX(10deg) rotateY(-2deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=a-sg] {
+  z-index: 80;
+  font-size: 11em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0e6367, 2px 2px #0e5f63, 3px 3px #0f676c, 4px 4px #0f676c, 5px 5px #0f676c, 6px 6px #107075, 7px 7px #0e5f63, 8px 8px #0f676c, 9px 9px #106c70, 10px 10px #0c5255, 11px 11px #0f676c, 12px 12px #0f676c, 13px 13px #107075, 14px 14px #0c565a, 15px 15px #106c70, 16px 16px #0d5b5e, 17px 17px #0c565a, 18px 18px #0e5f63, 19px 19px #0d5b5e;
+  transform: perspective(120px) rotateX(13deg) rotateY(22deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=p-sg] {
+  z-index: 86;
+  font-size: 15em;
+  text-shadow: 0px 0px #127D82, 1px 1px #106c70, 2px 2px #11797e, 3px 3px #0d5b5e, 4px 4px #117479, 5px 5px #0e6367, 6px 6px #107075, 7px 7px #0d5b5e, 8px 8px #0f676c, 9px 9px #0c565a, 10px 10px #11797e, 11px 11px #0e5f63, 12px 12px #0e5f63, 13px 13px #0c5255, 14px 14px #106c70, 15px 15px #0c5255, 16px 16px #0f676c, 17px 17px #0c5255, 18px 18px #11797e, 19px 19px #117479, 20px 20px #0d5b5e, 21px 21px #0e5f63, 22px 22px #107075, 23px 23px #0c565a, 24px 24px #107075, 25px 25px #106c70, 26px 26px #117479, 27px 27px #0c5255, 28px 28px #0e5f63, 29px 29px #107075;
+  transform: perspective(120px) rotateX(23deg) rotateY(5deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+
+[class^=l-sgm] {
+  display: inline-block;
+  /* color: #5FD3D3; */
+  color: #FFF;
+  font-size: 6em;
+  font-family: "Erica One", cursive, sans-serif;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+
+span[class$=l-sgm] {
+  z-index: 114;
+  font-size: 9em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0c565a, 2px 2px #11797e, 3px 3px #107075, 4px 4px #0c565a, 5px 5px #0c5255, 6px 6px #0e5f63, 7px 7px #0e6367, 8px 8px #117479, 9px 9px #0e5f63, 10px 10px #0e6367, 11px 11px #106c70, 12px 12px #0e6367, 13px 13px #0c5255, 14px 14px #0e5f63, 15px 15px #11797e, 16px 16px #0c565a, 17px 17px #0c5255, 18px 18px #0c5255, 19px 19px #0e5f63, 20px 20px #0c5255, 21px 21px #0f676c, 22px 22px #0e5f63, 23px 23px #0c565a, 24px 24px #0c565a;
+  transform: perspective(120px) rotateX(14deg) rotateY(19deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=d-sgm] {
+  font-size: 9em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0e5f63, 2px 2px #0f676c, 3px 3px #0d5b5e, 4px 4px #0c5255, 5px 5px #0c5255, 6px 6px #106c70, 7px 7px #0e6367, 8px 8px #107075, 9px 9px #107075, 10px 10px #117479, 11px 11px #0c565a, 12px 12px #107075, 13px 13px #0c565a, 14px 14px #11797e, 15px 15px #0c5255, 16px 16px #0c5255, 17px 17px #106c70, 18px 18px #117479, 19px 19px #106c70, 20px 20px #0c5255, 21px 21px #107075, 22px 22px #107075, 23px 23px #11797e;
+  transform: perspective(120px) rotateX(23deg) rotateY(-18deg) translateY(0);
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+span[class$=t-sgm] {
+  z-index: 22;
+  font-size: 7em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0d5b5e, 2px 2px #0e6367, 3px 3px #0c565a, 4px 4px #0c565a, 5px 5px #0d5b5e, 6px 6px #0d5b5e, 7px 7px #0e5f63, 8px 8px #0e6367, 9px 9px #0f676c, 10px 10px #107075, 11px 11px #0d5b5e, 12px 12px #107075, 13px 13px #0d5b5e, 14px 14px #0e5f63, 15px 15px #0e6367, 16px 16px #106c70, 17px 17px #11797e, 18px 18px #117479, 19px 19px #0c565a, 20px 20px #0c5255, 21px 21px #0e5f63, 22px 22px #0e6367, 23px 23px #106c70, 24px 24px #0f676c, 25px 25px #117479, 26px 26px #0e5f63, 27px 27px #0c5255, 28px 28px #0d5b5e, 29px 29px #0c565a;
+  transform: perspective(120px) rotateX(10deg) rotateY(-2deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=a-sgm] {
+  z-index: 80;
+  font-size: 7em;
+  text-shadow: 0px 0px #127D82, 1px 1px #0e6367, 2px 2px #0e5f63, 3px 3px #0f676c, 4px 4px #0f676c, 5px 5px #0f676c, 6px 6px #107075, 7px 7px #0e5f63, 8px 8px #0f676c, 9px 9px #106c70, 10px 10px #0c5255, 11px 11px #0f676c, 12px 12px #0f676c, 13px 13px #107075, 14px 14px #0c565a, 15px 15px #106c70, 16px 16px #0d5b5e, 17px 17px #0c565a, 18px 18px #0e5f63, 19px 19px #0d5b5e;
+  transform: perspective(120px) rotateX(13deg) rotateY(22deg) translateY(0);
+  transform-style: preserve-3d;
+}
+
+span[class$=p-sgm] {
+  z-index: 86;
+  font-size: 7em;
+  text-shadow: 0px 0px #127D82, 1px 1px #106c70, 2px 2px #11797e, 3px 3px #0d5b5e, 4px 4px #117479, 5px 5px #0e6367, 6px 6px #107075, 7px 7px #0d5b5e, 8px 8px #0f676c, 9px 9px #0c565a, 10px 10px #11797e, 11px 11px #0e5f63, 12px 12px #0e5f63, 13px 13px #0c5255, 14px 14px #106c70, 15px 15px #0c5255, 16px 16px #0f676c, 17px 17px #0c5255, 18px 18px #11797e, 19px 19px #117479, 20px 20px #0d5b5e, 21px 21px #0e5f63, 22px 22px #107075, 23px 23px #0c565a, 24px 24px #107075, 25px 25px #106c70, 26px 26px #117479, 27px 27px #0c5255, 28px 28px #0e5f63, 29px 29px #107075;
+  /* transform: perspective(120px) rotateX(23deg) rotateY(5deg) translateY(0); */
+  transform: perspective(63px) rotateX(5deg) rotateY(28deg) translateY(0);
+  transform-style: preserve-3d;
+}

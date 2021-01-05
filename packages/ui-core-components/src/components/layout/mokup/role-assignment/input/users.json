@@ -1,0 +1,30 @@
+{
+  "UserName": "tinhht",
+  "FullName": "Huỳnh Trung Tính",
+  "JobTitle": "Chuyên viên Lập trình",
+  "ManagerUserName": "tkthang",
+  "ManagerFullName": "Trương Kim Thắng",
+  "Department": "Digital Technology",
+  "WorkLocation": "Hồ Chí Minh",
+  "TeamMember": null,
+  "OtherMember": [
+    {
+      "UserName": "anctt",
+      "FullName": "Chung Thị Thúy An",
+      "JobTitle": "KTV Xử lý dữ liệu",
+      "ManagerUserName": "languyet",
+      "ManagerFullName": "Lê Ánh Nguyệt",
+      "Department": "Operations",
+      "WorkLocation": "Cần Thơ"
+    },
+    {
+      "UserName": "andpt",
+      "FullName": "Đỗ Phan Tấn An",
+      "JobTitle": "KTV Xử lý dữ liệu",
+      "ManagerUserName": "ntkquang",
+      "ManagerFullName": "Nguyễn Tô Kỳ Quang",
+      "Department": "Operations",
+      "WorkLocation": "Hồ Chí Minh"
+    }
+  ]
+}

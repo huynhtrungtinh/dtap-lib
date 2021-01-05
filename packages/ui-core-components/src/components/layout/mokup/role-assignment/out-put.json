@@ -1,0 +1,12 @@
+{
+  "username": "tretv",
+  "project_id": "NONE",
+  "app_name": "functional",
+  "function_group": "pm",
+  "functions": [
+    {
+      "name": "acquisitions",
+      "perm": "CRUD"
+    }
+  ]
+}

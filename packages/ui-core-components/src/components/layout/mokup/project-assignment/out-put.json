@@ -1,0 +1,18 @@
+{
+  "username": "tretv",
+  "project_id": "5d1465340fb92b0017a5621a",
+  "app_name": "operation",
+  "function_group": "pm",
+  "functions": [
+    {
+      "name": "acquisitions",
+      "perm": "CRUD"
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Task_0rzw5ve",
+      "perm": "CRUD"
+    }
+  ]
+}

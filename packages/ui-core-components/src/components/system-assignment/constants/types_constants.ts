@@ -1,0 +1,4 @@
+const TYPE_PREFIX = '@DGS/UPLOAD-IMAGE/';
+export const UNMOUNT = `${TYPE_PREFIX}UNMOUNT`;
+export const SET_DATA_READY = `${TYPE_PREFIX}SET_DATA_READY`;
+

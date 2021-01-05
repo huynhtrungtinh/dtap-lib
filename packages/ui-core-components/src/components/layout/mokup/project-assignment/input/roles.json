@@ -1,0 +1,25 @@
+[
+  {
+    "name": "pm",
+    "display_name": "Project Manager",
+    "app_name": "functional",
+    "functions": [
+      {
+        "name": "acquisitions",
+        "perm": "CRUD"
+      },
+      {
+        "name": "tasks-assignment",
+        "perm": "CRUD"
+      },
+      {
+        "name": "Form_40",
+        "perm": "CRUD"
+      },
+      {
+        "name": "Form_50",
+        "perm": "CRUD"
+      }
+    ]
+  }
+]

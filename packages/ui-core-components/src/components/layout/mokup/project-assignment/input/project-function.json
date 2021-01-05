@@ -1,0 +1,181 @@
+[
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": "config",
+    "path_prefix": "/training",
+    "name": "Form_40",
+    "display_name": "Form_40",
+    "path": "capture/5d1465340fb92b0017a5621a/Form_40/Form_40"
+  },
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": "config",
+    "path_prefix": "/training",
+    "name": "Form_20",
+    "display_name": "Form_20",
+    "path": "capture/5d1465340fb92b0017a5621a/Form_20/Form_20"
+  },
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": "config",
+    "path_prefix": "/training",
+    "name": "Form_50",
+    "display_name": "Form_50",
+    "path": "capture/5d1465340fb92b0017a5621a/Form_50/Form_50"
+  },
+  {
+    "root_app": "training",
+    "display_root_app": "Training",
+    "type": null,
+    "path_prefix": "/training",
+    "name": "user-guide",
+    "display_name": "User Guide",
+    "path": "projects/:projectId/user-guide"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_1o8qx7z",
+    "display_name": "Waiting for Proof",
+    "path": "assign/tasks/5d1465340fb92b0017a5621a/Task_1o8qx7z"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_0ym5ac7",
+    "display_name": "Type",
+    "path": "invoice/5d1465340fb92b0017a5621a/keying/Invoice/Task_0ym5ac7"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_18rrsvu",
+    "display_name": "Proof",
+    "path": "invoice/5d1465340fb92b0017a5621a/proof/Invoice/Task_18rrsvu"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_1qfw4tc",
+    "display_name": "Verify Hold Proof",
+    "path": "verifying/hold/10/true/5d1465340fb92b0017a5621a/Task_1qfw4tc"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_0rzw5ve",
+    "display_name": "Verify Hold Type",
+    "path": "verifying/hold/10/true/5d1465340fb92b0017a5621a/Task_0rzw5ve"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_0oa8o9e",
+    "display_name": "Supervisor",
+    "path": "invoice/5d1465340fb92b0017a5621a/supervisor/Invoice/Task_0oa8o9e"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_0fsh84b",
+    "display_name": "Verify Hold Supervisor",
+    "path": "verifying/hold/10/true/5d1465340fb92b0017a5621a/Task_0fsh84b"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_1v7ehsl",
+    "display_name": "View Key Data",
+    "path": "data/invoice/5d1465340fb92b0017a5621a/Task_1v7ehsl"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "production",
+    "display_sub_app": "Operator",
+    "type": "workflow",
+    "path_prefix": "production",
+    "name": "Task_08iat1i",
+    "display_name": "Close and Rework Batch",
+    "path": "rework/projects/5d1465340fb92b0017a5621a/Task_08iat1i/"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "quality-control",
+    "display_sub_app": "QC Execution",
+    "type": "workflow",
+    "path_prefix": "quality-control",
+    "name": "Task_1s4593u",
+    "display_name": "QC Invoice Invoice",
+    "path": "qc/5d1465340fb92b0017a5621a/5/Invoice/Invoice/Task_1s4593u"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "quality-control",
+    "display_sub_app": "QC Execution",
+    "type": "workflow",
+    "path_prefix": "quality-control",
+    "name": "Task_11gcu4r",
+    "display_name": "QC Invoice Type",
+    "path": "qc/5d1465340fb92b0017a5621a/5/Invoice/Type/Task_11gcu4r"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "quality-control",
+    "display_sub_app": "QC Execution",
+    "type": "workflow",
+    "path_prefix": "quality-control",
+    "name": "Task_06sz78q",
+    "display_name": "QC Invoice Proof",
+    "path": "qc/5d1465340fb92b0017a5621a/5/Invoice/Proof/Task_06sz78q"
+  },
+  {
+    "root_app": "operator",
+    "display_root_app": "Operator",
+    "sub_app": "quality-control",
+    "display_sub_app": "QC Execution",
+    "type": "workflow",
+    "path_prefix": "quality-control",
+    "name": "Task_1myjfvk",
+    "display_name": "QC Invoice Supervisor",
+    "path": "qc/5d1465340fb92b0017a5621a/5/Invoice/Supervisor/Task_1myjfvk"
+  }
+]
