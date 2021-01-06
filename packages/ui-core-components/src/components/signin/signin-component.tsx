@@ -98,7 +98,7 @@ function Signin(props: any) {
     username = {...DEFAULT_ITEM},
     password = {...DEFAULT_ITEM, fieldType: 'password'},
     errorMessage = null,
-    width = 'lg'
+    // width = 'lg'
   } = props;
   const classes = useStyles();
   const [isReady, setIsReady] = React.useState(false);
@@ -154,7 +154,7 @@ function Signin(props: any) {
     <>
       <CssBaseline />
       <div className={classes.root}>
-        {
+        {/* {
           (width === 'xs') ?
             <>
               <span className='l-sgmd-sgm'>D</span>
@@ -169,7 +169,7 @@ function Signin(props: any) {
               <span className='l-sga-sg'>A</span>
               <span className='l-sgp-sg'>P</span>
             </>
-        }
+        } */}
 
         <Grid
           container

@@ -16,11 +16,10 @@ const authenProvider: IAuthenProvider = {
         const response = await fetch(`${config.getApiURI()}${config.getApiOauthFrefix()}`, {
             method: "POST",
             headers: new Headers({
-                "user-agent": USER_AGENT,
+                // "user-agent": USER_AGENT,
                 "Content-type": "application/x-www-form-urlencoded;charset=UTF-8"
             }),
             body,
-            mode: 'no-cors'
         });
         let val = response.body
         console.log('response: ', val, response);
@@ -57,14 +56,15 @@ const authenProvider: IAuthenProvider = {
     },
     doRefresh: async (refreshToken: string) => {
         const body = new URLSearchParams();
-        body.append("client_id", "elrond");
-        body.append("client_secret", "HiEldrond");
+        body.append("client_id", config.getClienId());
+        body.append("client_secret", config.getClientSecret());
+        body.append("scope", "openid");
         body.append("grant_type", "refresh_token");
         body.append("refresh_token", refreshToken);
         const response = await fetch(`${config.getApiURI()}${config.getApiOauthFrefix()}`, {
             method: "POST",
             headers: new Headers({
-                "user-agent": USER_AGENT,
+                // "user-agent": USER_AGENT,
                 "Content-type": "application/x-www-form-urlencoded;charset=UTF-8"
             }),
             body
@@ -202,16 +202,25 @@ function checkTokenExpiration(accessToken?: string, refreshToken?: string) {
     }
     const jwtDataAT: any = parseJwt(accessToken) || null;
     const jwtDataRT: any = parseJwt(refreshToken) || null;
-    const timeAT: any = jwtDataAT && jwtDataAT.accessTokenExpiresAt || null;
-    const timeRT: any = jwtDataRT && jwtDataRT.refreshTokenExpiresAt || null;
+    const timeAT: any = jwtDataAT && jwtDataAT.exp || null;
+    const timeRT: any = jwtDataRT && jwtDataRT.exp || null;
+    console.log('=========checkTokenExpiration=======');
+    console.log('jwtDataAT: ', jwtDataAT);
+    console.log('jwtDataRT: ', jwtDataRT);
+    console.log('timeAT: ', timeAT);
+    console.log('timeRT: ', timeRT);
+    console.log('====================================');
     let outPut: any = {
         isRefresh: false,
         token: null,
         isReSingin: false
     };
     if (timeAT || timeRT) {
-        const expTimeAT = getMinutes2Dates(new Date(timeAT));
-        const expTimeRT = getMinutes2Dates(new Date(timeRT));
+        const expTimeAT = getMinutes2Dates(new Date(timeAT * 1000));
+        const expTimeRT = getMinutes2Dates(new Date(timeRT * 1000));
+        console.log('new Date(timeAT): ', new Date(timeAT * 1000));
+        console.log('expTimeAT: ', expTimeAT);
+        console.log('expTimeRT: ', expTimeRT);
         if (expTimeAT > 0) {
             outPut.token = accessToken
         } else if (expTimeRT > 0) {
@@ -235,8 +244,12 @@ const effectTokenExpiration = (holdPage?: boolean) => async (dispatch: any, getS
     let outPut: IUserInfoOutPut = {
         status: 400,
     };
+    console.log('========effectTokenExpiration=======');
+    console.log('tokenExp: ', tokenExp);
+    console.log('====================================');
     if (tokenExp.token) {
         outPut = await authenProvider.checkToken(tokenExp.token);
+
         if (outPut.status === 200) {
             isError = false;
             outPut.status = 200;

@@ -17,8 +17,8 @@ run-web: ## run the integration demo
 build-module-core: ## build core
 	@echo "Transpiling submodule core files...";
 	@rm -rf node_modules && rm -rf yarn.lock && yarn
-	@cd ./packages/ui-utils && yarn -s clear && yarn -s build
 	@cd ./packages/ui-scl && yarn -s clear && yarn -s build
+	@cd ./packages/ui-utils && yarn -s clear && yarn -s build
 	@cd ./packages/ui-core && yarn -s clear && yarn -s build
 	@cd ./packages/ui-core-components && yarn -s clear && yarn -s build
 	@cd ./modules/ui-rc-layouts && yarn -s clear && yarn -s build

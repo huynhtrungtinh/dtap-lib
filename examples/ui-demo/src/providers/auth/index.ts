@@ -1,5 +1,5 @@
-import { IAuthenProvider, IAuthenProviderOutPut, IDoLoginOutPut, IUserInfo, IUserInfoOutPut, USER_AGENT } from '@dtap/ui-scl';
-import { config, fetchJson, parseJwt } from '@dtap/ui-utils';
+import {IAuthenProvider, IAuthenProviderOutPut, IDoLoginOutPut, IUserInfo, IUserInfoOutPut, USER_AGENT} from '@dtap/ui-scl';
+import {config, fetchJson, parseJwt} from '@dtap/ui-utils';
 
 const authenProvider: IAuthenProvider = {
   doLogin: async (username: string, password: string) => {
@@ -9,7 +9,7 @@ const authenProvider: IAuthenProvider = {
     body.append("grant_type", "password");
     body.append("username", username);
     body.append("password", password);
-    const response = await fetch(`${config.getApiOauthURI()}/token`, {
+    const response = await fetch(`${config.getApiURI()}${config.getApiOauthFrefix()}`, {
       method: "POST",
       headers: new Headers({
         "user-agent": USER_AGENT,
@@ -45,7 +45,7 @@ const authenProvider: IAuthenProvider = {
     body.append("client_secret", "HiEldrond");
     body.append("grant_type", "refresh_token");
     body.append("refresh_token", refreshToken);
-    const response = await fetch(`${config.getApiOauthURI()}/token`, {
+    const response = await fetch(`${config.getApiURI()}${config.getApiOauthFrefix()}`, {
       method: "POST",
       headers: new Headers({
         "user-agent": USER_AGENT,
@@ -88,7 +88,7 @@ const authenProvider: IAuthenProvider = {
     return outPut;
   },
   checkToken: async (token: string) => {
-    const response = await fetch(`${config.getApiOauthURI()}/check_token`, {
+    const response = await fetch(`${config.getApiURI()}${config.getApiOauthFrefix()}`, {
       method: "GET",
       headers: new Headers({
         "user-agent": USER_AGENT,
@@ -159,5 +159,5 @@ const authenProvider: IAuthenProvider = {
   }
 }
 
-export { authenProvider };
+export {authenProvider};
 

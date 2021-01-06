@@ -1,12 +1,12 @@
-import { IInputProvider, IProviderOutPut } from '@dtap/ui-scl';
-import { getProjectsOperation } from '../mokup';
+import {IInputProvider, IProviderOutPut} from '@dtap/ui-scl';
+import {getProjectsOperation} from '../mokup';
 const PROJECTS_OPERATION_RESOURCE = "projects-operation";
 const projectsOperationResource = (input: IInputProvider): IProviderOutPut => {
     const {typeRequest, apiURI, typeApi} = input;
     switch (typeRequest) {
         case typeApi.get:
             return {
-                uri: `${apiURI.API_UAC_URI}/apps`,
+                uri: `${apiURI.API_URI}/apps`,
                 type: 'json',
                 body: null,
                 method: 'GET',
@@ -31,5 +31,5 @@ const projectsOperationResource = (input: IInputProvider): IProviderOutPut => {
             }
     }
 }
-export { projectsOperationResource, PROJECTS_OPERATION_RESOURCE };
+export {projectsOperationResource, PROJECTS_OPERATION_RESOURCE};
 

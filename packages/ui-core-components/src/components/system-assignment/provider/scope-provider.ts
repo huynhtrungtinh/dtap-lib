@@ -1,5 +1,5 @@
-import { IInputProvider, IProviderOutPut } from '@dtap/ui-scl';
-import { getScope } from '../mokup';
+import {IInputProvider, IProviderOutPut} from '@dtap/ui-scl';
+import {getScope} from '../mokup';
 // import {fetchJson, getApiUacURI} from '@dtap/ui-utils';
 // import {getScope} from '../mokup';
 
@@ -9,7 +9,7 @@ const scopeResource = (input: IInputProvider): IProviderOutPut => {
     switch (typeRequest) {
         case typeApi.get:
             return {
-                uri: `${apiURI.API_UAC_URI}/apps`,
+                uri: `${apiURI.API_URI}/apps`,
                 type: 'json',
                 body: null,
                 method: 'GET',
@@ -35,5 +35,5 @@ const scopeResource = (input: IInputProvider): IProviderOutPut => {
     }
 }
 
-export { scopeResource, SCOPE_RESOURCE };
+export {scopeResource, SCOPE_RESOURCE};
 

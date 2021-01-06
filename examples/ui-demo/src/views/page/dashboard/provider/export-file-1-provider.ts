@@ -1,4 +1,4 @@
-import { IInputProvider, IProviderOutPut } from '@dtap/ui-scl';
+import {IInputProvider, IProviderOutPut} from '@dtap/ui-scl';
 const EXPORT_FILE_1_RESOURCE = "export_file_1_dashboard";
 
 const exportFile1Resource = (input: IInputProvider): IProviderOutPut => {
@@ -7,7 +7,7 @@ const exportFile1Resource = (input: IInputProvider): IProviderOutPut => {
     switch (typeRequest) {
         case typeApi.get:
             return {
-                uri: `${apiURI.API_TRAINING_URI}/apps/production-admin/projects/${projectId}/export?from_date=2020-10-01&to_date=2020-11-04&fields=date,assignee,section,pass`,
+                uri: `${apiURI.API_URI}/apps/production-admin/projects/${projectId}/export?from_date=2020-10-01&to_date=2020-11-04&fields=date,assignee,section,pass`,
                 type: 'file',
                 method: 'GET'
             }
@@ -24,5 +24,5 @@ const exportFile1Resource = (input: IInputProvider): IProviderOutPut => {
             }
     }
 }
-export { exportFile1Resource, EXPORT_FILE_1_RESOURCE };
+export {exportFile1Resource, EXPORT_FILE_1_RESOURCE};
 

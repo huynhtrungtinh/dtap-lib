@@ -1,6 +1,6 @@
-import { IInputProvider, IProviderOutPut } from '@dtap/ui-scl';
-import { OPERATION_KEY, TRAINING_KEY } from '../constants';
-import { getFunctionsOperation, getFunctionsTraining } from '../mokup';
+import {IInputProvider, IProviderOutPut} from '@dtap/ui-scl';
+import {OPERATION_KEY, TRAINING_KEY} from '../constants';
+import {getFunctionsOperation, getFunctionsTraining} from '../mokup';
 const FUNCTIONS_RESOURCE = "functions-root";
 const functionsResource = (input: IInputProvider): IProviderOutPut => {
     const {typeRequest, params = {}, apiURI, typeApi} = input;
@@ -9,7 +9,7 @@ const functionsResource = (input: IInputProvider): IProviderOutPut => {
         case typeApi.get:
             if (appName === OPERATION_KEY) {
                 return {
-                    uri: `${apiURI.API_UAC_URI}/apps`,
+                    uri: `${apiURI.API_URI}/apps`,
                     type: 'json',
                     body: null,
                     method: 'GET',
@@ -56,5 +56,5 @@ const functionsResource = (input: IInputProvider): IProviderOutPut => {
             }
     }
 }
-export { functionsResource, FUNCTIONS_RESOURCE };
+export {functionsResource, FUNCTIONS_RESOURCE};
 
